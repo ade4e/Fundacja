@@ -1,0 +1,162 @@
+@media (max-width: 900px) {
+    .carousel_slide {
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .p-motto {
+        width: 100%;
+    }
+
+    .carousel_slide p {
+        width: 100% !important;
+    }
+
+    .container {
+        padding: 5px 25px;
+    }
+
+    .p-motto {
+        font-size: 50px !important;
+    }
+
+    .banner {
+        padding: 80px 0;
+    }
+
+    .banner-business {
+        padding: 80px 0;
+    }
+
+    .banner-contact {
+        padding: 50px 0;
+    }
+
+    .banner_rodo {
+        padding: 80px 0;
+    }
+
+    .news {
+        padding-bottom: 60px;
+        padding-top: 30px;
+    }
+
+    .news_board {
+        grid-gap: 25px;
+    }
+
+    h1 {
+        font-size: 50px !important;
+    }
+
+    .business_support {
+        margin-top: 50px;
+    }
+
+    .business_support p {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+
+    .human_support-main {
+        padding-bottom: 60px;
+    }
+
+    ol {
+        padding-left: 10px;
+    }
+
+    .banner-button {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1210px) {
+    .footer_main>div {
+        justify-content: center;
+    }
+
+    .footer_nav {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .footer_nav a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact h1 {
+        margin-top: 5px;
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 1310px) {
+    .statute_main img:first-child {
+        max-width: 474px !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .statute_main img:first-child {
+        max-width: 250px !important;
+        left: 0 !important;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 650px) {
+    .contact_form_main {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    .contact_form input,
+    .contact_form textarea {
+        margin-top: 0;
+    }
+
+    .contact_form_main button {
+        align-self: center;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .statute_main img:first-child {
+        display: none;
+    }
+
+    .p-motto {
+        font-size: 40px !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    #pdf_download {
+        position: static;
+        margin-top: 15px;
+    }
+
+    ol {
+        padding-left: 5px;
+    }
+
+    .banner-contact {
+        padding: 25px 0;
+    }
+
+    .brand img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 370px) {
+    .brand img {
+        width: 185px;
+    }
+}
